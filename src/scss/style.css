@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1600px;
+  height: 960px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  background-color: #110101;
+}
+
+.tarjeta {
+  width: 171px;
+  height: 100%;
+  background-color: #303236;
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta__logo {
+  width: 102px;
+  height: 36px;
+}
+.tarjeta__logo img {
+  margin-top: 57px;
+  margin-left: 34px;
+}
+
+.tarjeta__txt {
+  margin-left: 85px;
+  margin-top: 140px;
+  height: 581px;
+  width: 47px;
+  color: #FFFFFF;
+}
+.tarjeta__txt p {
+  font-family: Cabin;
+  font-weight: 600px;
+  font-size: 24px;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+
+.contenido {
+  width: 100%;
+  height: 100%;
+}
+
+.titulo {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+}
+.titulo ul {
+  width: 639px;
+  height: 39px;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.titulo li {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-family: Cabin;
+  text-transform: uppercase;
+}
+.titulo li:hover {
+  cursor: pointer;
+}
+
+.detalle {
+  display: flex;
+  height: 100%;
+  padding-left: 79px;
+}
+.detalle .item {
+  width: 50%;
+}
+.detalle .item .item__tit {
+  color: #FFFFFF;
+  font-size: 128px;
+  font-family: Black Ops One;
+}
+.detalle .item .item__sub {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-family: Cabin;
+}
+.detalle .item .item__pre {
+  color: #FFFFFF;
+  font-size: 48px;
+  font-family: Dosis;
+  padding-top: 5rem;
+}
+.detalle .item .item__dsc {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: Cabin;
+  margin-top: 1rem;
+  line-height: 1.5rem;
+  padding-right: 5rem;
+}
+.detalle .item .item__btn {
+  height: 59px;
+  width: 260px;
+  margin-top: 5rem;
+  border-radius: 5rem;
+  background-color: #585B61;
+  display: flex;
+  align-items: center;
+}
+.detalle .item .item__btn p {
+  width: 100%;
+  font-size: 20px;
+  font-family: Cabin;
+  text-transform: uppercase;
+  text-align: center;
+  color: #EBE1E1;
+}
+.detalle .item .item__btn p:hover {
+  cursor: pointer;
+}
+.detalle .imagen {
+  width: 50%;
+  margin-left: -10rem;
+}/*# sourceMappingURL=style.css.map */
